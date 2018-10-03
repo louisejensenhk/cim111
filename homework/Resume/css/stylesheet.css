@@ -49,7 +49,7 @@ a:hover {
     #second {
         color: white;
         text-align: center;
-        text-decoration: bold;
+        text-decoration: none;
         margin: 0 auto;
         font-family: 'Oswald', sans-serif;
         font-size: 40px;
@@ -71,7 +71,7 @@ a:hover {
               #last {
                   color: Darkblue;
                   text-align: center;
-                  text-decoration: italic;
+                  text-decoration: none;
                   margin: 0 auto;
                   font-family: 'Slabo 27px', serif;
                   font-size: 40px;

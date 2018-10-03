@@ -21,7 +21,7 @@ p {
 
 
 a {
-   text-decoration:underlink
+   text-decoration:none;
      }
 
 a:hover {
@@ -125,7 +125,7 @@ p.summary {
 
                      }
 
-                     
+
                      img {
                        display: block;
                        width: 50%;

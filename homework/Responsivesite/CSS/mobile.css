@@ -10,3 +10,86 @@ body{
   display: block;
   margin-bottom: 40px;
 }
+
+#grid1{
+  display: grid;
+  grid-template-areas: "col1" "col2";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 100%;
+  text-align: center;
+
+}
+
+#grid2{
+  display: grid;
+  grid-template-areas: "col3" "col4" "col5";
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 100%;
+  text-align: center;
+
+}
+
+#grid3{
+  display: grid;
+  grid-template-areas: "col7" "col8" "col9";
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 100%;
+  text-align: center;
+
+}
+
+#grid4{
+  display: grid;
+  grid-template-areas: "col10" "col11" "col12";
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 100%;
+  text-align: center;
+}
+
+.images{
+  height: 100%;
+  width: auto;
+}
+
+
+.aboutimage{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.theartimage{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.iniimage{
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 10px;
+}
+
+.avocadoimage{
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  }
+
+.chorizoimage{
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.energyballs{
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

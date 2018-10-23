@@ -10,9 +10,11 @@ font-family: 'Cinzel', serif;
 
 
 nav{
+border-color: powderblue;
+background-color: aliceblue;
+text-align: center;
 width: 325px;
 height: 50px;
-background-color: white;
 margin: 0 auto;
 }
 
@@ -44,22 +46,13 @@ background-color: white;
 margin: 0 auto;
 }
 
-footer {
-width: 80%;
-height: 50px;
-background-color: coral;
-margin: 0 auto;
-}
-
 #info {
-  border-style: groove;
-  border-width: 10px;
-  width: 90%;
+  width: auto;
   height: 50px;
-  padding: 30px;
+  padding: 20px;
   margin: 0 auto;
-  border-color: powderblue;
-  background-color: aliceblue;
+  border-color: white;
+  background-color: white;
   text-align: center;
 }
 
@@ -68,7 +61,8 @@ margin: 0 auto;
   grid-template-areas: "col1 col2";
   grid-template-rows: 1fr;
   grid-template-columns: 50% 50%;
-    text-align: center;
+  text-align: center;
+
 }
 #col1{
   grid-area: col1;
@@ -161,7 +155,7 @@ margin: 5px;
 
 h2{
 text-align: center;
-font-family: 'Abril Fatface', cursive;
+font-family: 'Libre Baskerville', serif;
 }
 
 p{

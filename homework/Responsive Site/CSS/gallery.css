@@ -9,9 +9,11 @@ font-family: 'Cinzel', serif;
 }
 
 nav{
+border-color: powderblue;
+background-color: aliceblue;
+text-align: center;
 width: 325px;
 height: 50px;
-background-color: white;
 margin: 0 auto;
 }
 
@@ -37,7 +39,7 @@ background-color: pink;
 }
 
 main{
-  background-color: #f4c2c2
+  background-color: white;
 }
 
 #grid1{
@@ -51,19 +53,19 @@ main{
 
 #col1{
   grid-area: col1;
-  background-color: #f4c2c2;
+  background-color: white;
   height: auto;
 }
 
 #col2{
   grid-area: col2;
-  background-color: #f4c2c2;
+  background-color: white;
   height: auto;
 }
 
 #col3{
   grid-area: col3;
-  background-color: #f4c2c2;
+  background-color: white;
   height: auto;
 }
 
@@ -78,19 +80,19 @@ main{
 
 #col4{
   grid-area: col4;
-  background-color: #f4c2c2;
+  background-color: white;
   height: auto;
 }
 
 #col5{
   grid-area: col5;
-  background-color: #f4c2c2;
+  background-color: white;
   height: auto;
 }
 
 #col6{
   grid-area: col6;
-  background-color: #f4c2c2;
+  background-color: white;
   height: auto;
 }
 

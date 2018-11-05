@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
+
+    <title> Lettering </title>
+
+    <style>
+
+      .char1{
+        color: "red";
+      }
+      .char2{
+        color: "green";
+      }
+      .char3{
+        color: "blue";
+      }
+      .char4{
+        color: "purple";
+      }
+
+      .word6{
+        color: organge
+      }
+
+    </style>
+
+
+  </head>
+
+  <body>
+    <div id="letters"> Elephant </div>
+    <p id= "wordsplit"> I know what im doing! </p>
+    <p id= "sentence"> I am <br> broken <br> up <br> </p>.
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src= "/Users/louisejensen/Desktop/University of Miami/Fall2018/CIM111/notes/week10/js/jquery.lettering.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+
+    <script>
+      $("document").ready)function(){
+        $("#letters").lettering();
+        $("#wordsplit").lettering("words");
+          $("#sentence").lettering("lines");
+      });
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <style>
+
+        body {
+          background-color: aliceblue;
+          text-align: center;
+          margin: 0 auto;
+          font-size: 40px;
+          }
+
+      </style>
+
+    </head>
+
+<body>
+
+  <h1 id="changeText">Welcome to Cooking for College </h1>
+
+  <h1> Louise Jensen </h1>
+
+  <h2 id="info">Introduction to Javascript</h2>
+
+<p> Click the button to display recipes: <br> <br>
+
+ 1. Energy balls <br> <br> <img id="image1" src="/Users/louisejensen/Desktop/University of Miami/Fall2018/CIM111/homework/jQuery/images/energyballs.png" width="900"> </p> <br>
+
+<button onclick="myFunction1()">Click Me (:</button>
+<br>
+
+<p id="demo"></p>
+
+<script>
+function myFunction1() {
+    var str = "Directions: <br> 1. Mix all ingredients in a blender. <br> 2. If the mixture is dry, we recommend to add more tsp of water. <br> 3. Form approximately 10 small balls. <br> 4. Dip and roll the energy balls in grated coconut. <br> 5. Place in fridge to chill <br> <br> Ingredients: <br> 100g Oats <br> 100ml Virgin olive oil <br> 50g Coca powder <br> 100g Grated coconut <br> 1tsp Honey <br> 2tsp Water <br> 10 Pitted dates <br>";
+    var result = str.fontsize(7);
+    document.getElementById("demo").innerHTML = result;
+}
+
+</script>
+
+<br>
+
+2. Guacamole & quesadillas <br> <br>  <img id="image2" src="/Users/louisejensen/Desktop/University of Miami/Fall2018/CIM111/homework/jQuery/images/Guacamole & quesadillas .jpg" width="1000"> </p> <br>
+
+<button onclick="myFunction2()">Click Me (:</button>
+<br>
+
+<p id="demo"></p>
+
+<script>
+function myFunction2() {
+    var str = "Directions: <br> 1. Place a tortilla wrap on dry pan  <br> 2. Sprinkle a handful of shredded mexican cheese onto the torilla and add pre cooked shredded chicken breast. Place another tortilla wrap on top. <br> 3. Fry for a couple of minutes then flip it around and fry another minute or two until golden brown and all cheese has melted. <br> 4. To see quacamole recipe go to pg 46-47. <br> <br> Ingredients: <br> 2 Tortilla wraps <br> Handful of mexi- can cheese <br> 1 chicken <br>";
+    var result = str.fontsize(7);
+    document.getElementById("demo").innerHTML = result;
+}
+</script>
+
+<br>
+
+3. Homade granola <br> <br>    <img id="image3" src="/Users/louisejensen/Desktop/University of Miami/Fall2018/CIM111/homework/jQuery/images/granola.png" width="900"></p> <br>
+
+<button onclick="myFunction3()">Click Me (:</button>
+<br>
+
+<p id="demo"></p>
+
+<script>
+function myFunction3() {
+    var str = "Directions : <br> 1. Mix all the ingredients in a blender. <br> 2. If the mixture is dry we recommend to add some water. <br> 3/ Form approximately 10 small balls. Dip and roll the energy balls in grated coconut <br> 4. Place in fridge to chill. <br> <br> Ingredients: <br> 100g oats <br> 100ml virgin olive oil <br> 50g coca powder <br> 100g grated coconut <br> 1tsp honey <br> 2tsp water <br> 10 pitted dates <br> ";
+    var result = str.fontsize(7);
+    document.getElementById("demo").innerHTML = result;
+}
+</script>
+
+<!-- Relative -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<!-- Absolute Remote -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+  //Write a comment
+  //Start of script
+  $(document).ready(function(){
+      //All code should be placed below
+      $(".box").hide();
+      $("body").css("background-color", "aliceblue");
+      $("h1").css("color", "black");
+      $("h1").css("font-size", "60px");
+      $("h2").css("color", "black");
+      $("h2").css("font-size", "40px");
+      $("#changeText").css("font-size", "70px");
+      $("#changeText").click(function(){
+      $("body").css("background-color", "aliceblue");
+      $("body").css("font-size", "50px");
+      });//end of change text click
+        $("#info").mouseenter(function(){
+          $("#recepticle").html("<em> Click for recipes");
+          $("#info").css("background-color", "aliceblue");
+  });
+        $("#info").mouseleave(function(){
+          $("#recepticle").html("");
+          $("#info").css("background-color", "transparent");
+        });
+    });//end of document ready
+</script>
+
+</body>
+</html>

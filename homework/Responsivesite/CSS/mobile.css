@@ -1,5 +1,4 @@
 @import "desktop.css";
-@import "gallery.css";
 
 body{
   background-color: white;
@@ -23,24 +22,6 @@ body{
 #grid2{
   display: grid;
   grid-template-areas: "col3" "col4" "col5";
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 100%;
-  text-align: center;
-
-}
-
-#grid3{
-  display: grid;
-  grid-template-areas: "col7" "col8" "col9";
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 100%;
-  text-align: center;
-
-}
-
-#grid4{
-  display: grid;
-  grid-template-areas: "col10" "col11" "col12";
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 100%;
   text-align: center;

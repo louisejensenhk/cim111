@@ -44,11 +44,32 @@
 
    <div id="imageRecepticle"></div>
 
+<br>
+<br>
 
+<h3> About the Chef </h3>
 
-    <div class="box"></div>
+<p>
+  1. Contact Information <br>
+  <button id="contact"> Click it</button>
 
+  <br>
+  <br>
 
+2. Work Experience
+<br>
+<button id="cade">Cade Studio</button>
+<button id="highlight">Highlight Asia</button>
+
+<p id="demo"></p>
+
+3. Image
+<br>
+<br>
+
+<img src="/Users/louisejensen/Desktop/University of Miami/Fall2018/CIM111/homework/jQuery/images/LouiseResume.jpg" id="Lou" width="900" />
+
+<p> Grew Up in Hong Kong and Studying at University of Miami </p>
 
 
     <!-- Relative -->
@@ -92,8 +113,10 @@
             $("#image3").click(function(){
               $("#imageRecepticle").html(' Directions : <br> 1. Mix all the ingredients in a blender. <br> 2. If the mixture is dry we recommend to add some water. <br> 3/ Form approximately 10 small balls. Dip and roll the energy balls in grated coconut <br> 4. Place in fridge to chill. <br> <br> Ingredients: <br> 100g oats <br> 100ml virgin olive oil <br> 50g coca powder <br> 100g grated coconut <br> 1tsp honey <br> 2tsp water <br> 10 pitted dates <br> ');
               $("imageRecepticle").css("font-size", "50px");
-            });
-
+          });
+          $("#Lou").click(function(){
+            $(".box").show();
+          });
             $("#hide").click(function(){
               $(".box").hide();
             });
@@ -105,6 +128,40 @@
             });
         });//end of document ready
     </script>
+
+
+    <script>
+    document.getElementById("contact").addEventListener("click", myFunction);
+
+    function myFunction() {
+        alert ("(786) 910-3275. lxj204@miami.edu. 6620 SW 57th Street South Miami, FL 33143");
+    }
+
+    document.getElementById("cade").addEventListener("click", myFunction);
+
+    function myFunction() {
+        alert ("Graphic Design Internship located in Hong Kong for a company called Cade Studio,which did branding and graphic communication. 3 Weeks (May 2018 - June2018)");
+    }
+
+    document.getElementById("highlight").addEventListener("click", myFunction);
+
+    function myFunction() {
+        alert ("Marketing and Public Relations Internship located in Hong Kong for a company called Highlight Asia. 3 Weeks (May 2018 - June 2018).");
+    }
+
+    </script>
+
+    <script>
+document.getElementById("demo").addEventListener("click", myFunction);
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
+}
+
+</script>
+
+
+
 
   </body>
 

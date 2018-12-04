@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: white;
+}
+
+
+/* Header/Blog Title */
+.header {
+  border-style: none;
+  border-width: 10px;
+  text-align: center;
+  width: auto;
+  height: 300px;
+  padding: 30px;
+  margin: 0 auto;
+  border-color: powderblue;
+  background: white;
+
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color:#66b2b2;
+    height: 50px;
+    width: auto;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: aliceblue;
+    color: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.Paragraphs {
+    float: center;
+    text-align: center;
+    width: 100%;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <img class="banner" src="images/100.jpg" style="height:585px">
+</header>
+
+<div class="topnav">
+  <a href="hkg.html">Hong Kong</a>
+  <a href="cph.html">Copenhagen</a>
+  <a href="mia.html">Miami</a>
+  <a href="index.html" style="float:right">Home</a>
+  <a href="about.html" style="float:right">About</a>
+</div>
+
+  <div class="Paragraphs">
+    <div class="card">
+      <h2> About Hong Kong</h2>
+      <h5>This is where I grew up, Dec 3, 2018</h5>
+      <img class="images" src="images/hkg.jpg" style="height:400px">
+
+      <p> Yo, I LOVE Hong Kong, I swear when you come to Hong Kong you would want to live there. The view is amazing. Hong Kong is a city that I miss the most, and that I will always remember. <br> <br>
+
+The view is amazing at the Peak. One place you need to go to when you are visiting Hong Kong, is The Peak. The Peak also offers a very good hike that you can go on. I like it a lot and it's not that long. Don't worry. <br> <br>
+
+If you come to Hong Kong and you are looking for a beach to go swimming, you should visit The Repulse Bay Beach. The Repulse Bay Beach is a cool beach. Lot's of people have fun there. You can ask anyone. If you are in Hong Kong when it is Lantern Festival, the Repulse Bay beach is a great place to experience the Chinese lunar moon festival. It's a great place to go with your friends and Family. But it's dark so tell your children not to go swimming or they'll get lost!
+
+<br> Hope you Enjoy Hong Kong!!!! </p>
+
+    </div>
+
+
+    <div class="card">
+      <h2> Thriving as an Expat</h2>
+      <h5>A little about myself, Dec 3, 2018</h5>
+      <img class="30img" src="images/30.jpg" style="height:460px">
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+
+
+    <div class="card">
+      <h2> Hong Kong's Hotspots </h2>
+      <h5> Beautiful unknown tourist areas & nature spots in Hong Kong, Dec 3, 2018</h5>
+      <img class="images" src="images/31.jpg" style="height:460px">
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+
+    <div class="card">
+      <h2> HKG Foodies </h2>
+      <h5> Trust me daddy!!! best food spots in Hong Kong, Dec 3, 2018</h5>
+      <img class="images" src="images/101.jpg" style="height:600px">
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+
+    <div class="card">
+      <h2> We livin' in China, baby! </h2>
+      <h5> Economic, International Business, Dec 3, 2018</h5>
+      <img class="images" src="images/34.jpg" style="height:530px">
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+
+  </div>
+</body>
+</html>
